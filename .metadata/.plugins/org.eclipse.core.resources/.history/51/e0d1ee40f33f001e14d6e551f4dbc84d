@@ -1,0 +1,17 @@
+package viikko1perusteet;
+
+import java.util.Scanner;
+
+public class HeiEtunimi {
+
+	public static void main(String[] args) {
+		// SKANNERI MUUTTUJAN LUONTI
+		Scanner lukija = new Scanner(System.in);
+		
+		System.out.println("Syötä etunimi: ");
+		
+		Hei Maija!
+
+	}
+
+}
