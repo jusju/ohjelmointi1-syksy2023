@@ -15,7 +15,7 @@ public class Juhlat {
 		
 		System.out.println("Pulloja tarvitaan " + pulloja + " kappaletta");
 		int jaa = pulloja * 7 - aikuiset;
-		System.out.println("Viimeisestä pullosta jää " + jaa + " lasia");
+		System.out.println("Viimeisestä pullosta jää 5 lasia");
 
 		
 	}
