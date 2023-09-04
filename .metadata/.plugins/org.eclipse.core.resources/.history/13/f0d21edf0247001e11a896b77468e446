@@ -1,0 +1,20 @@
+package viikko2ehtolauseet;
+
+import java.util.Scanner;
+
+public class Rikesakko {
+
+	public static void main(String[] args) {
+		Scanner lukija = new Scanner(System.in);
+		System.out.print("Anna nopeusrajoitus: ");
+		int nopeusrajoitus = lukija.nextInt();
+		System.out.print("Anna nopeutesi: ");
+		int nopeusNyt = lukija.nextInt();
+
+		Anna nopeusrajoitus: 120
+		Anna nopeutesi: 150
+		Menee päiväsakoille
+		
+	}
+
+}

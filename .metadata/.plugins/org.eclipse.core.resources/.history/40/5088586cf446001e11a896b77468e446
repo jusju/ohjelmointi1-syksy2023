@@ -1,0 +1,22 @@
+package viikko2ehtolauseet;
+
+import java.util.Scanner;
+
+public class Katsastus {
+	public static void main(String[] args) {
+		Scanner lukija = new Scanner(System.in);
+		System.out.print("Onko 1=katsastus, 2=jälkitarkastus: ");
+		int tarkastusTyyppi = lukija.nextInt();
+		if(tarkastusTyyppi == 1) {
+			System.out.print("Mitataanko päästöt 0=ei, 1=kyllä: ");
+			lukija = lukija.nextInt();
+		} else  {
+			System.out.println("Hinta on 30");
+		}
+
+		//Onko 1=katsastus, 2=jälkitarkastus: 1
+		//		Mitataanko päästöt 0=ei, 1=kyllä: 1
+		//		Onko auto 0=bensa, 1=diesel: 1
+		//		Hinta on 81
+	}
+}

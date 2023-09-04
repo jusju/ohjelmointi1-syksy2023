@@ -1,0 +1,12 @@
+package viikko2ehtolauseet;
+
+import java.util.Scanner;
+
+public class Palkka {
+
+	public static void main(String[] args) {
+		Scanner lukija = new Scanner(System.in);
+
+	}
+
+}
