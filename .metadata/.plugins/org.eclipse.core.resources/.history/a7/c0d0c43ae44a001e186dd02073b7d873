@@ -1,8 +1,5 @@
 package viikko3toistolauseet;
 
-import java.text.DecimalFormat;
-import java.util.Scanner;
-
 public class Koepisteet {
 
 	public static void main(String[] args) {
