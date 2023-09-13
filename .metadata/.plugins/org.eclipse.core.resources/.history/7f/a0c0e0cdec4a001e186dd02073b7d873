@@ -1,0 +1,10 @@
+package viikko3toistolauseet;
+
+public class Makihyppy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

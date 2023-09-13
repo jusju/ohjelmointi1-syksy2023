@@ -1,0 +1,21 @@
+package viikko3toistolauseet;
+
+import java.util.Scanner;
+
+public class KoepisteetDoWhile {
+	public static void main(String[] args) {
+		Scanner lukija = new Scanner(System.in);		
+		int koepisteet = 0;
+		int summa = 0;
+		int lkm = 0;
+		
+		do {
+
+			System.out.print("Anna koepisteet:");
+			koepisteet = lukija.nextInt();
+			summa = summa + koepisteet;
+			lkm = lkm + 1; // tai lkm++;
+		} while(koepisteet >= 0);
+		
+	}
+}

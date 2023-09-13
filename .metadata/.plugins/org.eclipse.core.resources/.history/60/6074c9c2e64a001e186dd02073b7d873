@@ -1,0 +1,13 @@
+package viikko3toistolauseet;
+
+public class KoepisteetDoWhile {
+	public static void main(String[] args) {
+		
+		int koepisteet = 0;
+		
+		do {
+			
+		} while(koepisteet >= 0);
+		
+	}
+}
