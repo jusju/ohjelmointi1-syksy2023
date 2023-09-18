@@ -1,0 +1,15 @@
+package viikko5taulukotjametodit;
+
+public class TaulukkoDemo {
+
+	public static void main(String[] args) {
+		// INT TYYPPISIÄ ARVOJA SISÄLTÄVÄ TAULU NIMELTÄÄN PALKAT
+		// JOKA SISÄLTÄÄ 3 ARVOA
+		int[] palkat = new int[3];
+		int[0] = 4200;
+		int[1] = 4800;
+		int[2] = 4400;
+
+	}
+
+}
