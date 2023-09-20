@@ -12,13 +12,13 @@ public class EtsiEtunimi {
 	// MERKKIJONON JA SAA PARAMETRINA MERKKIJONON. METODIN
 	// KUTSUMINEN ON YKSINKERTAISEMPAA, SILLÄ KÄYTÖSSÄ STATIC-METODI
 	// METODI PALAUTTAA ETUNIMEN 
-	
-	public static String etsiEtunimi(String nimi) {
+	public  String etsiEtunimi(String nimi) {
 		String[] solut = nimi.split(" ");
 		String etunimi = solut[0];
 		return etunimi;
 	}
-
+	
+	
 	public static void main(String[] args) {
 		Scanner lukija = new Scanner(System.in);
 		System.out.print("Anna koko nimesi: ");

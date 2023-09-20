@@ -1,0 +1,26 @@
+package viikko5taulukotjametodit;
+
+import java.util.Scanner;
+
+public class Kellonaika {
+	
+	public static String kysyKellonaika() {
+		Scanner lukija = new Scanner(System.in);
+		String kellonaika = "";
+		System.out.println("Anna kellonaika muodossa tt:mm:");
+		kellonaika = lukija.nextLine();
+		return kellonaika;
+	}
+
+
+	public static boolean tarkastaKellonaika(String kellonaika) {
+		boolean kellonAikaOnVaarin = false;
+		return kellonAikaOnVaarin;
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

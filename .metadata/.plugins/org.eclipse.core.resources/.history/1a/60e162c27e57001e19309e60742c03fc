@@ -1,0 +1,19 @@
+package viikko5taulukotjametodit;
+
+public class Kellonaika {
+
+	public String kysyKellonaika() {
+		
+	}
+
+
+	public boolean tarkastaKellonaika(String kellonaika) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
