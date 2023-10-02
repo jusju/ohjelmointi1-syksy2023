@@ -1,0 +1,20 @@
+package viikko4paivamaarajamerkkijonot;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class Kalenteri {
+
+	public static void main(String[] args) {
+		Scanner lukija = new Scanner(System.in);
+		System.out.print("Syötä vuosi: ");
+		int vuosi = lukija.nextInt();
+		System.out.print("Syötä kuukausi: ");
+		int kuukausi = lukija.nextInt();
+
+		LocalDate paivamaara = LocalDate.of(vuosi, kuukausi, 1); 
+
+
+	}
+
+}

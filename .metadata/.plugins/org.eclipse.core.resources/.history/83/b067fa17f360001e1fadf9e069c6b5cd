@@ -1,0 +1,10 @@
+package viikko4paivamaarajamerkkijonot;
+
+public class Kalenteri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

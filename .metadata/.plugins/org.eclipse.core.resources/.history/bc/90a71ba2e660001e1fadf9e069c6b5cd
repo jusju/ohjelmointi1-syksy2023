@@ -1,0 +1,31 @@
+package viikko6luokatjaoliot;
+
+import java.util.ArrayList;
+
+public class Soittolista {
+	// YKSITYINEN OLIOMUUTTUJA - PRIVATE ATTRIBUTE
+	private ArrayList<Kappale> kappaleet = new ArrayList<Kappale>();
+
+	public Soittolista() {
+
+	}
+	/*
+	void lisaaKappale(Kappale kappale)
+	lisää annetun kappaleen kappaleet-listalle viimeiseksi
+	Kappale getKappale(int indeksi)
+	palauttaa listalta kohdassa indeksi olevan kappaleen.
+	Jos annettu indeksi on suurempi kuin listan viimeisen arvon indeksi, tämä metodi ei saa aiheuttaa IndexOutOfBoundsException-virhettä. Vertaa siis metodin sisällä sille annettua indeksiä kappaleet-listan pituuteen ennen kuin kutsut kappaleet-listan get-metodia. Palauta tulokseksi null, mikäli annettu indeksi on liian suuri.
+	int haeKokonaispituus()
+	laskee soittolistan kappaleiden yhteiskeston sekunteina ja palauttaa tuloksen
+	String toString()
+	*/
+	public void lisaaKappale(Kappale kappale) {
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Soittolista [kappaleet=" + kappaleet + "]";
+	}
+	
+}

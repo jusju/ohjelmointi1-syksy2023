@@ -1,0 +1,8 @@
+package viikko6luokatjaoliot;
+
+import java.util.ArrayList;
+
+public class Soittolista {
+	// YKSITYINEN OLIOMUUTTUJA - PRIVATE ATTRIBUTE
+	private ArrayList<Kappale> kappaleet = new ArrayList<Kappale>();
+}
