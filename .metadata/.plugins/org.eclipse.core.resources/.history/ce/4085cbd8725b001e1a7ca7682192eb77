@@ -1,0 +1,46 @@
+package viikko5taulukotjametodit;
+
+import java.util.Scanner;
+
+public class PienellaSuurella {
+
+	
+	public static void main(String[] args) {
+		PienellaSuurella olio = new PienellaSuurella();
+		olio.aja();		
+
+	}
+	// TAAS KIRJOITETAAN OHJELMA, JOSSA ON STATIC SANA VAIN KERRAN
+	
+	public void aja() {
+		String teksti, nayttaminen = "";
+		teksti = kysyTeksti();
+		String lopullinenTeksti = naytaTeksti(teksti, nayttaminen);
+		System.out.println(lopullinenTeksti);
+
+	}
+	public String naytaTeksti(String teksti, String nayttaminen) {
+		// ERICSSONIN TYOHAASTETTELUN OLENNAISIN OSA
+		String naytettavaTeksti = "";
+		if(nayttaminen.equals("pienellä")) {
+			teksti = teksti.toLowerCase();
+		} else {
+			teksti = teksti.toUpperCase();
+		}
+		naytettavaTeksti = teksti;
+		return naytettavaTeksti;
+	}
+	
+	
+	public  String kysyTeksti() {
+		Scanner lukija = new Scanner(System.in);
+		String teksti, nayttaminen;
+		teksti = System.out.println("Kirjoita teksti: ");
+		teksti = lukija.nextLine();
+		nayttaminen = kysyTeksti("Suurella vai pienellä: ");
+		String suurellaVaiPienella = lukija.nextLine();
+		String lopullinenTeksti = naytaTeksti(teksti, nayttaminen);		
+		return lopullinenTeksti;
+	}
+	
+}

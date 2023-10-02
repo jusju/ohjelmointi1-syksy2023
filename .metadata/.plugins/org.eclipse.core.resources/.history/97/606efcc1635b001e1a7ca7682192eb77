@@ -1,0 +1,14 @@
+package viikko5taulukotjametodit;
+
+public class Laakarikorvaus {
+
+	public void kysyRahamaara() {
+		
+	}
+	
+	public static void main(String[] args) {
+	
+
+	}
+
+}

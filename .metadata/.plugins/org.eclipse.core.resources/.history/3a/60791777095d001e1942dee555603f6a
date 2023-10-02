@@ -1,0 +1,49 @@
+package viikko6luokatjaoliot;
+
+import java.util.Scanner;
+
+public class KirjaOhjelma {
+
+	/*
+	 
+	 Anna nimi: 97 Things Every Java Programmer Should Know
+Anna isbn: ei tietoa
+Anna hinta: 26,80
+Anna julkaisuvuosi: 2020
+	 
+	 */
+	
+	public static void main(String[] args) {
+		Scanner lukija = new Scanner(System.in);
+		System.out.print("Anna nimi: ");
+		String nimi = lukija.nextLine();
+		System.out.print("Anna isbn: ");
+		String isbn = lukija.nextLine();				
+		System.out.print("Anna hinta: ");
+		double hinta = lukija.nextDouble();
+		System.out.print("Anna julkaisuvuosi: ");
+		int julkaisuvuosi = lukija.nextInt();
+		
+		
+		// LUODAAN KIRJA PARAMETRILLISELLÄ KONSTRUKTORILLA
+		Kirja kirja1 = new Kirja(nimi, isbn, hinta, julkaisuvuosi);
+		// TULOSTETAAN KIRJA TOSTRING METODIN KAUTTA
+		System.out.println(kirja1);
+
+		// LUODAAN TOINEN KIRJA KÄYTTÄEN PARAMETRITÖNTÄ KONSTRUKTORIA
+		Kirja kirja2 = new Kirja();
+		
+		// ASETETAAN TOISELLE KIRJALLE ARVOT SET-METODILLA, KOSKA PARAMETRITÖN KONSTRUKTORI EI ASETA MITÄÄN
+		kirja2.setHinta(hinta);
+		kirja2.setIsbn(isbn);
+		kirja2.setJulkaisuvuosi(julkaisuvuosi);
+		kirja2.setNimi(nimi);
+		
+		// TULOSTETAAN TOISEN KIRJAN TIEDOT NÄYTÖLLE KÄYTTÄEN GET-METODEJA
+		System.out.println(kirja2.getNimi());
+		System.out.println(kirja2.getIsbn());
+		System.out.println(kirja2.getHinta());
+		System.out.println(kirja2.getJulkaisuvuosi());
+	}
+
+}

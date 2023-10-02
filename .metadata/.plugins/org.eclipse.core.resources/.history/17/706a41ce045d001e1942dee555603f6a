@@ -1,0 +1,14 @@
+package viikko6luokatjaoliot;
+
+// KOHDELUOKKA ELI ENTITY LUOKKA
+public class Kirja {
+	// 1. OMINAISUUDET ELI ATTRIBUUTIT
+	private String nimi;
+	private String isbn;
+	private double hinta;
+	private int julkaisuvuosi;
+	
+	// 2. SET- JA GET-METODIT
+	
+	// 3. TOSTRING-METODI
+}

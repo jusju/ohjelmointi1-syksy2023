@@ -1,0 +1,40 @@
+package viikko5taulukotjametodit;
+
+import java.util.Scanner;
+
+public class Laakarikorvaus {
+	// AJA METODIN VOI LUODA JOKAISEEN OHJELMAAN, JOTTA PÄÄSEE
+	// HELPOSTI EROON STATIC SANASTA. USEIMMITEN STATIC SANAA
+	// EI TULE KÄYTTÄÄ
+	public void aja() {
+		System.out.print("Anna käynnin kesto: ");
+		Scanner lukija = new Scanner(System.in);
+		int kesto = lukija.nextInt();
+		// PUSKURIN TYHJENNYS INT JA DOUBLE LUVUILLA "PERSE ENTER"
+		lukija.nextLine();
+	}
+	// METODIT ALKAA AINA PUBLIC SANALLA
+	public double laskeKorvaus(int kesto) {
+		double kelaKorvaus = 0;
+		
+		if(kesto <= 10) {
+			kelaKorvaus = 8.00;
+		}
+		System.out.println("");
+		
+		Vastaanottokäynti, enintään 10 min 8,00
+
+		Vastaanottokäynti, enintään 20 min 11,00
+
+		Vastaanottokäynti, enintään 30 min 13,50 
+		return 0;
+	}
+
+	
+	public static void main(String[] args) {
+		// LUODAAN OLIO TÄSTÄ LUOKASTA, JOKA ON TÄSSSÄ TIEDOSTOSSA
+		Laakarikorvaus olio = new Laakarikorvaus();
+		// KUTSUTAAN OLION METODIA ELI FUNKTIOTA
+		olio.aja();
+	}
+}

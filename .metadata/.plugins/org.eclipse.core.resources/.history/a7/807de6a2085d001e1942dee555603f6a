@@ -1,0 +1,50 @@
+package viikko6luokatjaoliot;
+
+import java.util.Scanner;
+
+public class KirjaOhjelma {
+
+	/*
+	 
+	 Anna nimi: 97 Things Every Java Programmer Should Know
+Anna isbn: ei tietoa
+Anna hinta: 26,80
+Anna julkaisuvuosi: 2020
+	 
+	 */
+	
+	public static void main(String[] args) {
+		Scanner lukija = new Scanner(System.in);
+		System.out.print("Anna nimi: ");
+		
+		System.out.print("Anna isbn: ");
+				
+		System.out.print("Anna hinta: ");
+		
+		System.out.print("Anna julkaisuvuosi: ");
+
+		
+		
+		// LUODAAN KIRJA PARAMETRILLISELLÄ KONSTRUKTORILLA
+		Kirja kirja1 = new Kirja("97 Things Every Java Programmer Should Know", "ei tietoa", 26.80, 2020);
+		// TULOSTETAAN KIRJA TOSTRING METODIN KAUTTA
+		System.out.println(kirja1);
+
+		// LUODAAN TOINEN KIRJA KÄYTTÄEN PARAMETRITÖNTÄ KONSTRUKTORIA
+		Kirja kirja2 = new Kirja();
+		
+		// ASETETAAN TOISELLE KIRJALLE ARVOT SET-METODILLA, KOSKA PARAMETRITÖN KONSTRUKTORI EI ASETA MITÄÄN
+		kirja2.setHinta(26.80);
+		kirja2.setIsbn("9789521435560");
+		kirja2.setJulkaisuvuosi(2020);
+		kirja2.setNimi("97 Things Every Java Programmer Should Know");
+		
+		// TULOSTETAAN TOISEN KIRJAN TIEDOT NÄYTÖLLE KÄYTTÄEN GET-METODEJA
+		System.out.println(kirja2.getNimi());
+		System.out.println(kirja2.getHinta());
+		System.out.println(kirja2.getJulkaisuvuosi());
+		System.out.println(kirja2.getIsbn());
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package viikko5taulukotjametodit;
+
+public class Veriryhma {
+
+	public void aja() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Veriryhma olio = new Veriryhma();
+		olio.aja();
+	}
+
+}

@@ -1,0 +1,18 @@
+package viikko6luokatjaoliot;
+
+public class AutoOhjelma {
+
+	public static void main(String[] args) {
+		// LUODAAN TESLA-MERKKINEN AUTO
+		Auto tesla = new Auto("Tesla");
+		// LUODAAN BMW-MERKKINEN AUTO
+		Auto bmw = new Auto("BMW");
+		// KUTSUTAAN TESLA-AUTO AJA-METODIA ARVOLLA 10
+		tesla.aja(100);
+
+		
+		
+		
+	}
+
+}

@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="viikko5taulukotjametodit.EtsiEtunimi"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="viikko5taulukotjametodit.Laakarikorvaus"/>
+    <fullyQualifiedTypeName name="viikko5taulukotjametodit.TyohaastatteluKysymys"/>
+    <fullyQualifiedTypeName name="viikko5taulukotjametodit.TaulukkoDemo"/>
+    <fullyQualifiedTypeName name="viikko5taulukotjametodit.PienellaSuurella"/>
+    <fullyQualifiedTypeName name="viikko5taulukotjametodit.Veriryhma"/>
+    <fullyQualifiedTypeName name="viikko6luokatjaoliot.Auto"/>
+    <fullyQualifiedTypeName name="viikko6luokatjaoliot.Kirja"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 </qualifiedTypeNameHistroy>

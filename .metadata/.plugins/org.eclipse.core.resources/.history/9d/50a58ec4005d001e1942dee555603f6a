@@ -1,0 +1,11 @@
+package viikko6luokatjaoliot;
+
+public class AutoOhjelma {
+
+	public static void main(String[] args) {
+		// LUODAAN TESLA-MERKKINEN AUTO
+		Auto tesla = new Auto("Tesla");
+
+	}
+
+}

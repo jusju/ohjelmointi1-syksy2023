@@ -1,0 +1,35 @@
+package viikko5taulukotjametodit;
+
+import java.util.Scanner;
+
+public class Veriryhma {
+
+	public void aja() {
+		Scanner lukija = new Scanner(System.in);
+		String veriryhma = "";
+		while (!veriryhma.equals("-")) {
+			// METODIN KUTSU
+			kysyVeriryhma();
+			veriryhma = lukija.nextLine();
+
+		}
+		System.out.println("Luovutuksia oli yhteensä ");
+		System.out.println("Minkä veriryhmän luovutusten määrän haluat tietää: ");
+		System.out.println("Veriryhmän O- luovutuksia oli ");
+		
+		// Luovutuksia oli yhteensä 8
+		// Minkä veriryhmän luovutusten määrän haluat tietää: O-
+		// Veriryhmän O- luovutuksia oli 1
+
+	}
+
+	// METODIN/FUNKTION MÄÄRITYS
+	public void kysyVeriryhma() {
+		System.out.print("Anna veriryhmä (- lopettaa): ");
+	}
+
+	public static void main(String[] args) {
+		Veriryhma olio = new Veriryhma();
+		olio.aja();
+	}
+}

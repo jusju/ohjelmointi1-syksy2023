@@ -1,0 +1,22 @@
+package viikko5taulukotjametodit;
+
+public class PienellaSuurella {
+
+	
+	public static void main(String[] args) {
+		PienellaSuurella olio = new PienellaSuurella();
+		olio.aja();		
+
+	}
+	// TAAS KIRJOITETAAN OHJELMA, JOSSA ON STATIC SANA VAIN KERRAN
+	
+	public void aja() {
+		
+	}
+	
+	
+	public  String kysyTeksti(String kehote) {
+		return "";
+	}
+	
+}

@@ -1,0 +1,39 @@
+package viikko5taulukotjametodit;
+
+import java.util.Iterator;
+
+public class TyohaastatteluKysymys {
+/*
+ MICROSOFT PYYSI TYÖHAASTATTELUSSA KIRJOITTAMAAN METODIN/FUNKTION
+ JOKA SAA PARAMETRINÄ TAULUKON JA VAIHTAA ARVOT TAULUKOSSA
+ KESKENÄÄN. VOITKO TEHDÄ TÄMÄN ILMAN TEMP MUUTTUJAA? AIKAA ON 5 MINUUTTIA.
+ */
+	public void aja() {
+		int[] taulukko = new int[2];
+		taulukko[0] = 42;
+		taulukko[1] = 7;
+		System.out.println("Luvut aluksi: ");
+		for (int i = 0; i < taulukko.length; i++) {
+			System.out.println(taulukko[i]);
+		}
+		// RIVI 20 ON OMITUINEN, MITEN SE TOIMII?
+		vaihdaKeskenaan(taulukko);
+		System.out.println("Luvut lopuksi: ");		
+		for (int i = 0; i < taulukko.length; i++) {
+			System.out.println(taulukko[i]);
+		}
+		
+	}
+	
+	
+	public void vaihdaKeskenaan(int[] luvut) {
+		int temp = luvut[1];
+		luvut[1] = luvut[0];
+		luvut[0] = temp;
+	}
+	
+	public static void main(String[] args) {
+		TyohaastatteluKysymys olio = new TyohaastatteluKysymys();
+		olio.aja();
+	}
+}

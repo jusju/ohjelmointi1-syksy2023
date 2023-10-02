@@ -1,0 +1,21 @@
+package viikko5taulukotjametodit;
+
+public class TyohaastatteluKysymys {
+/*
+ MICROSOFT PYYSI TYÖHAASTATTELUSSA KIRJOITTAMAAN METODIN/FUNKTION
+ JOKA SAA PARAMETRINÄ TAULUKON JA VAIHTAA ARVOT TAULUKOSSA
+ KESKENÄÄN.
+ */
+	
+	public void vaihdaKeskenaan(int[] luvut) {
+		
+	}
+	
+	public static void main(String[] args) {
+		int[] taulukko = new int[2];
+		System.out.println("Luvut aluksi: ");
+		
+		System.out.println("Luvut lopuksi: ");
+		
+	}
+}

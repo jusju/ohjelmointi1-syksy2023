@@ -1,0 +1,10 @@
+package viikko6luokatjaoliot;
+
+public class AutoOhjelma {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

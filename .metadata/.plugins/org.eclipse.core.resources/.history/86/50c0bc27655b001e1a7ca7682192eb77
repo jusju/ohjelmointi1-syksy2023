@@ -1,0 +1,20 @@
+package viikko5taulukotjametodit;
+
+public class Laakarikorvaus {
+
+	public void aja() {
+		
+	}
+	// METODIT ALKAA AINA PUBLIC SANALLA
+	public double laskeKorvaus(int kesto) {
+		return 0;
+	}
+
+	
+	public static void main(String[] args) {
+		// LUODAAN OLIO TÄSTÄ LUOKASTA, JOKA ON TÄSSSÄ TIEDOSTOSSA
+		Laakarikorvaus olio = new Laakarikorvaus();
+		// KUTSUTAAN OLION METODIA ELI FUNKTIOTA
+		olio.aja();
+	}
+}

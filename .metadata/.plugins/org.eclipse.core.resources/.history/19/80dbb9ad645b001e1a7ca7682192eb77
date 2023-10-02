@@ -1,0 +1,20 @@
+package viikko5taulukotjametodit;
+
+public class Laakarikorvaus {
+
+	public void aja() {
+		
+	}
+	
+	// MITEN TEHDAAN METODI ELI FUNKTIO, JONKA OTSIKOSSA
+	// ELI MAARITYKSESSA EI TARVITSE OLLA STATIC SANAA
+	public void kysyRahamaara() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Laakarikorvaus olio = new Laakarikorvaus();
+		olio.aja();
+
+	}
+}
